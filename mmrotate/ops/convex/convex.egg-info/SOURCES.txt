@@ -1,0 +1,9 @@
+setup.py
+./src/convex_cpu.cpp
+./src/convex_cuda.cu
+./src/convex_ext.cpp
+convex.egg-info/PKG-INFO
+convex.egg-info/SOURCES.txt
+convex.egg-info/dependency_links.txt
+convex.egg-info/requires.txt
+convex.egg-info/top_level.txt
