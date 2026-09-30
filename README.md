@@ -10,8 +10,8 @@
 
 ```bash
 #### News:
-#### 2025.11.20: The paper is published on IEEE TGRS!
-#### 2025.12.05: code of ACDet is open source!
+#### 2026.09.22: The paper is published on IEEE TCSVT!
+#### 2026.09.30: code of LOBA is open source!
 ```
 
 ## INTRODUCTION
