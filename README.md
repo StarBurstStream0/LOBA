@@ -47,45 +47,45 @@ the pretrained weights can be found here.
 
 - [Swin-Tiny-LOBA](https://pan.baidu.com/s/1-LfDNSRMQxCxBXyxsqmvKQ?pwd=btgb)
 
-**当前实验均在ORPN，Swin-T，Focus-v8.0-ISP-e12 下完成**
+Exps under ORPN，Swin-T，Focus-v8.0-ISP-e12
 
 | No. | Pretrain                | Pre data    | MPS/PPS | Load part | DOTA-v1.0 | FAIR1M-v2.0 | DIOR-R | HRSC2016 | UCAS-AOD | Status |
 | --- | ----------------------- | ----------- | ------- | --------- | --------- | ----------- | ------ | -------- | -------- | ------ |
-| 0.0 | RandInit                | -           | -       | BB        | 59.2      | 35.0        | 49.3   | 49.2     | 77.4     |        |
-| 1.0 | ISP-ImageNet-?          | ImageNet    | -       | BB        | 73.9      | 42.3        | 65.7   | 89.8     | 89.6     |        |
-| 2.0 | SimMIM-ImageNet-1k-100e | ImageNet-1k | -       | BB        | 71.6      | 39.2        | 60.2   | 87.8     | 88.9     |        |
-| 4.0 | Focus-v8.0-ISP-e12      | FDD-v4.0    | adp     | BB+FPN    | 73.4      | 42.5        | 66.0   | 88.4     | 89.5     |        |
+| 0   | RandInit                | -           | -       | BB        | 59.2      | 35.0        | 49.3   | 49.2     | 77.4     |        |
+| 1   | ISP-ImageNet-1k         | ImageNet-1k | -       | BB        | 73.9      | 42.3        | 65.7   | 89.8     | 89.6     |        |
+| 2   | SimMIM-ImageNet-1k-100e | ImageNet-1k | -       | BB        | 71.6      | 39.2        | 60.2   | 87.8     | 88.9     |        |
+| 3   | Focus-v8.0-ISP-e12      | FDD-v4.0    | adp     | BB+FPN    | 73.4      | 42.5        | 66.0   | 88.4     | 89.5     |        |
 
-**当前实验均在ORPN，Swin-T，Focus-v8.0-ISP-e24 下完成**
+Exps under ORPN，Swin-T，Focus-v8.0-ISP-e24
 
 | No. | Pretrain                | Pre data    | MPS/PPS | Load part | DOTA-v1.0 | FAIR1M-v2.0 | DIOR-R | HRSC2016 | UCAS-AOD | Status |
 | --- | ----------------------- | ----------- | ------- | --------- | --------- | ----------- | ------ | -------- | -------- | ------ |
-| 0.0 | RandInit                | -           | -       | BB        | 59.2      | 35.0        | 49.3   | 49.2     | 77.4     |        |
-| 1.0 | ISP-ImageNet-?          | ImageNet    | -       | BB        | 73.9      | 42.3        | 65.7   | 89.8     | 89.6     |        |
-| 2.0 | SimMIM-ImageNet-1k-100e | ImageNet-1k | -       | BB        | 71.6      | 39.2        | 60.2   | 87.8     | 88.9     |        |
-| 4.0 | Focus-v8.0-ISP-e12      | FDD-v4.0    | adp     | BB+FPN    | 73.4      | 42.5        | 66.0   | 88.4     | 89.5     |        |
-| 5.0 | Focus-v8.0-ISP-e24      | FDD-v4.0    | adp     | BB+FPN    | 74.3      |             | 67.0   | 89.9     |          |        |
+| 0   | RandInit                | -           | -       | BB        | 59.2      | 35.0        | 49.3   | 49.2     | 77.4     |        |
+| 1   | ISP-ImageNet-1k         | ImageNet-1k | -       | BB        | 73.9      | 42.3        | 65.7   | 89.8     | 89.6     |        |
+| 2   | SimMIM-ImageNet-1k-100e | ImageNet-1k | -       | BB        | 71.6      | 39.2        | 60.2   | 87.8     | 88.9     |        |
+| 3   | Focus-v8.0-ISP-e12      | FDD-v4.0    | adp     | BB+FPN    | 73.4      | 42.5        | 66.0   | 88.4     | 89.5     |        |
+| 4   | Focus-v8.0-ISP-e24      | FDD-v4.0    | adp     | BB+FPN    | 74.3      |             | 67.0   | 89.9     |          |        |
 
 - [Intern-Tiny-LOBA](https://pan.baidu.com/s/1SS27_Mah91JQbM5bCNsaJQ?pwd=btgb)
 
-**当前实验均在ORPN, Intern-T，Focus-v8.0-ISP-e12 下完成**
+Exps under ORPN, Intern-T，Focus-v8.0-ISP-e12
 
 | No. | Pretrain                | Pre data    | MPS/PPS | Load part | DOTA-v1.0 | FAIR1M-v2.0 | DIOR-R | HRSC2016 | UCAS-AOD | Status |
 | --- | ----------------------- | ----------- | ------- | --------- | --------- | ----------- | ------ | -------- | -------- | ------ |
-| 0.0 | RandInit                | -           | -       | BB        |           |             |        |          |          |        |
-| 1.0 | ISP-ImageNet-?          | ImageNet    | -       | BB        | 73.9      | 43.6        | 65.7   | 89.8     | 89.6     |        |
-| 4.0 | Focus-v8.0-ISP-e12      | FDD-v4.0    | adp     | BB+FPN    | 75.8      | 45.2        | 70.2   | 90.4     | 89.7     |        |
+| 0   | RandInit                | -           | -       | BB        |           |             |        |          |          |        |
+| 1   | ISP-ImageNet-1k         | ImageNet-1k | -       | BB        | 73.9      | 43.6        | 65.7   | 89.8     | 89.6     |        |
+| 2   | Focus-v8.0-ISP-e12      | FDD-v4.0    | adp     | BB+FPN    | 75.8      | 45.2        | 70.2   | 90.4     | 89.7     |        |
 
 - [Resnet-50-LOBA](https://pan.baidu.com/s/1n26bNiS2P0sos0IvfbJuLw?pwd=btgb)
 
-**当前实验均在ORPN, Resnet-50，Focus-v8.0-ISP-e12/24 下完成**
+Exps under ORPN, Resnet-50，Focus-v8.0-ISP-e12/24
 
 | No. | Pretrain                | Pre data    | MPS/PPS | Load part | DOTA-v1.0 | FAIR1M-v2.0 | DIOR-R | HRSC2016 | UCAS-AOD | Status |
 | --- | ----------------------- | ----------- | ------- | --------- | --------- | ----------- | ------ | -------- | -------- | ------ |
-| 0.0 | RandInit                | -           | -       | BB        | 53.4      | 31.4        | 48.1   | 35.1     | 82.3     |        |
-| 1.0 | ISP-ImageNet-?          | ImageNet    | -       | BB        | 72.6      | 41.4        | 63.0   | 89.7     | 89.6     |        |
-| 2.0 | Focus-v8.0-ISP-e12      | FDD-v4.0    | adp     | BB+FPN    | 73.3      | 41.4        | 65.5   | 90.1     | 89.5     |        |
-| 3.0 | Focus-v8.0-ISP-e24      | FDD-v4.0    | adp     | BB+FPN    |           |             |        | 90.4     |          |        |
+| 0   | RandInit                | -           | -       | BB        | 53.4      | 31.4        | 48.1   | 35.1     | 82.3     |        |
+| 1   | ISP-ImageNet-1k         | ImageNet-1k | -       | BB        | 72.6      | 41.4        | 63.0   | 89.7     | 89.6     |        |
+| 2   | Focus-v8.0-ISP-e12      | FDD-v4.0    | adp     | BB+FPN    | 73.3      | 41.4        | 65.5   | 90.1     | 89.5     |        |
+| 3   | Focus-v8.0-ISP-e24      | FDD-v4.0    | adp     | BB+FPN    |           |             |        | 90.4     |          |        |
 
 ### training, testing, and inferencing
 
